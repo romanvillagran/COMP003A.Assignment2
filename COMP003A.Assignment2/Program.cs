@@ -18,21 +18,21 @@ namespace COMP003A.Assignment2
            
  
             
-            Console.Write("Enter your first name");
+            Console.Write("Enter your first name:");
             userFirstName = Console.ReadLine();
 
-            Console.Write("Enter your last name");
+            Console.Write("Enter your last name:");
             userLastName = Console.ReadLine();
             
             Console.Write("Enter your age: ");
             userAge = int.Parse(Console.ReadLine());
 
             
-            Console.Write("Enter the price of a product");
+            Console.Write("Enter the price of a product:");
             productPrice = double.Parse(Console.ReadLine());
 
             
-            Console.Write(" Are you a student? (true/false)");
+            Console.Write(" Are you a student? (true/false):");
             isStudent = bool.Parse(Console.ReadLine());
 
             int futureAge = userAge + 5;
