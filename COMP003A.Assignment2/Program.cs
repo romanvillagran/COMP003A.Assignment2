@@ -41,6 +41,10 @@ namespace COMP003A.Assignment2
             Console.WriteLine($"\nHello, {userFirstName} {userLastName}!");
             Console.WriteLine($"Your current age is {userAge}.");
             Console.WriteLine($"In 5 years, you will be {futureAge}");
+            Console.WriteLine($"The original price of the item is ${productPrice}.");
+            Console.WriteLine($"As a Student, your discounted price is ${}.");
+            Console.WriteLine($"As a senior citizen, your dicounted price would be ${}.");
+
 
         }
     }
